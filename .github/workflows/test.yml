@@ -45,7 +45,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
-      - uses: actions/checkout@v1
       - name: Sphinx build
         run: |
           sphinx-build doc _build
