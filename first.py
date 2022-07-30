@@ -1,15 +1,5 @@
-# Python program to find the
-# maximum of two numbers
+def capital_case(x):
+    return x.capitalize()
 
-
-def maximum(a, b):
-	
-	if a >= b:
-		return a
-	else:
-		return b
-	
-# Driver code
-a = 2
-b = 4
-print(maximum(a, b))
+def test_capital_case():
+    assert capital_case('semaphore') == 'Semaphore'
